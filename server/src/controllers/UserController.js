@@ -1,4 +1,4 @@
-const {User} = require("../models");
+const {User} = require("../Vegetable");
 
 module.exports = {
     //get all user

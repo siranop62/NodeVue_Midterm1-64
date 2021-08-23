@@ -1,19 +1,19 @@
 <template>
 <div>
-    <h1>Create User</h1>
+    <h1>เพิ่มรายชื่อผัก</h1>
     <form v-on:submit.prevent = "createUser">
-        <p>name: <input type="text" v-model="user.name"></p>
-        <p>lastname: <input type="text" v-model="user.lastname"></p>
-        <p>email: <input type="text" v-model="user.email"></p>
-        <p>password: <input type="text" v-model="user.password"></p>
+        <p>ชื่อ: <input type="text" v-model="user.name"></p>
+        <p>ชื่อทางวิทยาศาสตร์: <input type="text" v-model="user.lastname"></p>
+        <p>ชื่อวงศ์: <input type="text" v-model="user.email"></p>
+        <p>วิธีการปลูก: <input type="text" v-model="user.password"></p>
         <p><button type="submit">create user</button></p>
     </form>
     <hr>
     <div>
-        <p>name: {{user.name}}</p>
-        <p>lastname: {{user.lastname}}</p>
-        <p>email: {{user.email}}</p>
-        <p>password: {{user.password}}</p>
+        <p>ชื่อ: {{user.name}}</p>
+        <p>ชื่อทางวิทยาศาสตร์: {{user.lastname}}</p>
+        <p>ชื่อวงศ์: {{user.email}}</p>
+        <p>วิธีการปลูก: {{user.password}}</p>
     </div>
 </div>
 </template>
